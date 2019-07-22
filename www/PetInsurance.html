@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <script src="js/ZipCodeValidation.js"></script>
+</head>
+<body onload="getZipCodeData();">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">PetInsurance</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>    
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>  
+<form>
+<div class="container" align="center"> 
+ <h2>Hello! Welcome to Pet Insurance</h2> 
+ <div class="form-group col-lg-2" style="margin:0 auto;float:none">  
+     <label for="zip"><h3>Enter ZipCode:</h3></label>
+     <input type="text" id="zipInput" class="form-control" placeholder="Enter Zip Code" pattern="[0-9]{5,5}" required>
+     <input type="submit" class="btn btn-info" style="margin-top: 5rem" value="Get Quote" onclick="validateZipcode();">
+    </div>
+<div id="resZip" style="margin-top: 5rem">
+
+</div>
+</div>
+</form>
+</body>
+</html>

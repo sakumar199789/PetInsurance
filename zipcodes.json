@@ -1,0 +1,39 @@
+{
+    "zipcodes" : [
+    {
+        "zipcode" : "32003",
+        "city" : "Fleming Island",
+        "county" : "Saint Johns"
+    },
+    {
+        "zipcode" : "32004",
+        "city" : "Ponte Vedra Beach",
+        "county" : "Saint Johns"
+    },
+    {
+        "zipcode" : "32006",
+        "city" : "Fleming Island",
+        "county" : "Saint Johns"
+    },
+    {
+        "zipcode" : "32007",
+        "city" : "Bostwick",
+        "county" : "Putnam"
+    },
+    {
+        "zipcode" : "32008",
+        "city" : "Branford",
+        "county" : "Suwanee"
+    },
+    {
+        "zipcode" : "32009",
+        "city" : "Bryceville",
+        "county" : "Nassau"
+    },
+    {
+        "zipcode" : "32011",
+        "city" : "Callahan",
+        "county" : "Nassau"
+    }
+    ]
+}
